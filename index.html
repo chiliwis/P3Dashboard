@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/style.css">
+    <title>INCOME</title>
+</head>
+<body>
+    <header>
+      <nav class="p-4 bg-primary text-white">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TABLAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GRÁFICAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">AYUDA</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="table-responsive">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">GRÁFICAS</h1>
+          
+            <canvas id="myChart" width="400" height="400"></canvas>
+  
+          </div>
+        
+        </div>
+      </div>
+      <table class="table text-lg-center">
+        <thead class="thead-warning text-white ">
+          <tr>
+            <th>ID</th>
+            <th>MES</th>
+            <th>MONTO</th>
+          </tr>
+        </thead>
+        <tbody id="tblIngresos">
+        </tbody>
+      </table>
+    </div>
+  
+    <footer class="p-3 mt-auto badge-dark">
+      <div id="footer" class="inner text-center">
+        <p>
+          Info provided by
+          <a href="http://ucamp.alumnos.dev4humans.com.mx/Main/endpoint_ingresos_mensuales"> Income API</a>
+        </p>
+  
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <script src="/JS/main.js"></script>
+  </html>
+</html>
