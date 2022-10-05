@@ -27,9 +27,9 @@ function cargarIngresos() {
     if(result.data.length == 0){
         tblIngresos.innerHTML = `<tr><td colspan="5" class="text-center">No hay ingresos</td></tr>`;
     }
-    // })
-    // .catch(error=> {
-    //     console.log("Error");
+    })
+    .catch(error=> {
+        console.log("Error");
     })
 }
 

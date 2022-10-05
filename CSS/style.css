@@ -1,6 +1,4 @@
 
-16 lines (14 sloc)  214 Bytes
-
 a{
     color:whitesmoke;
     font-weight: bold;
@@ -15,5 +13,5 @@ footer {
 
 body{
     background-color: rgb(47, 23, 232);
-    text-emphasis-color: white;
+    /* text-emphasis-color: white; */
 }
